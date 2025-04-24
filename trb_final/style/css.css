@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 40px;
+    background-color: #f8f8f8;
+    color: #333;
+}
+.container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #ccc;
+    max-width: 800px;
+    margin: auto;
+}
+h1, h2 {
+    color: #444;
+}
+/* style.css */
+
+/* Fonte base e reset mínimo */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #1a1a1a;       /* Fundo bem escuro */
+    color: #e6e6e6;                  /* Texto claro para contraste */
+    line-height: 1.5;
+    padding: 40px;
+}
+
+/* Container centralizado, inspirado em ícones de portões góticos */
+.container {
+    max-width: 500px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.8);
+    border: 2px solid #550000;       /* Borda vermelha escura */
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.4);
+}
+
+/* Títulos com fonte serif inspirada em gótico */
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: #ff2b2b;                  /* Vermelho vivo */
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px #000;
+}
+
+/* Labels e inputs estilizados */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #ccc;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    background: #333;
+    border: 1px solid #550000;
+    border-radius: 4px;
+    color: #eee;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: #ff2b2b;
+    box-shadow: 0 0 8px rgba(255, 43, 43, 0.6);
+}
+
+/* Mensagens de erro e sucesso */
+p.error {
+    color: #ff4c4c;
+    margin-bottom: 16px;
+}
+
+p.success {
+    color: #78c800;
+    margin-bottom: 16px;
+}
+
+/* Botões com efeito “glow” vermelho */
+input[type="submit"],
+button {
+    display: inline-block;
+    background: #ff2b2b;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: box-shadow 0.3s, transform 0.2s;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    box-shadow: 0 0 12px rgba(255, 43, 43, 0.7);
+    transform: translateY(-2px);
+}
+
+/* Estilo para links (Termos de Serviço) */
+a {
+    color: #ff2b2b;
+    text-decoration: none;
+    border-bottom: 1px dashed #ff2b2b;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #ff4c4c;
+    border-bottom-style: solid;
+}
+
+/* Mensagem de verificação de senha */
+#mensagem-senha {
+    display: block;
+    margin-top: -12px;
+    margin-bottom: 16px;
+    font-size: 0.9rem;
+}
+
+/* Checkbox alinhados */
+input[type="checkbox"] {
+    margin-right: 8px;
+    transform: scale(1.2);
+    vertical-align: middle;
+}
